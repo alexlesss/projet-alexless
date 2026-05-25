@@ -14,14 +14,14 @@ title: Vue d'ensemble du projet
 
 !!! info "Informations générales"
     **Session**: Été 2026  
-    **Auteur(s)**: <!-- Nom de chaque membre (matricule)  -->  
-    **Thème(s)**: <!-- Thèmes principaux abordés dans le projet  -->  
-    **Superviseur(s)**: <!-- Nom du superviseur (affiliation)  -->  
-    **Collaborateur(s):** <!-- Nom de(s) collaborateur(s) et partenaire(s)` -->  
+    **Auteur(s)**: Alexis Lessnick  
+    **Thème(s)**: Programmation en nombres entiers, cryptographie post-quantique.  
+    **Superviseur(s)**: Kimberly Yu  
 
 ## Description du projet
-
-> :bulb: N'oubliez pas d'effacer ou mettre en commentaires les notes (`>`) en début de section
+<p style="text-align: justify;">
+Ce projet vise à étudier le rôle de la programmation en nombres entiers dans l’analyse et l’attaque de schémas de cryptographie post-quantique, notamment ceux basés sur le problème Learning With Errors (LWE). L’étudiant(e) fera une revue de la littérature sur les méthodes d’attaque existantes, en mettant l’accent sur les approches d’optimisation discrète et leurs liens avec les réseaux (lattices). Le projet consistera à comprendre les modèles mathématiques de base, à examiner comment la programmation en nombres entiers peut être utilisée pour traiter ces problèmes, et à comparer son efficacité avec celle des méthodes classiques. Le projet comprendra également la lecture et la rédaction de preuves mathématiques rigoureuses, ainsi que la programmation d’algorithmes et la réalisation d’expériences numériques.
+</p>
 
 ### Contexte
 
@@ -44,11 +44,6 @@ title: Vue d'ensemble du projet
 ### Validation et Évaluation
 
 > Indiquez comment vous évaluerez que votre solution répond aux objectifs du projet (ex. scénarios d’usage, tests, retours utilisateurs, indicateurs qualitatifs ou quantitatifs).
-
-
-## Équipe
-
-> Présentez les membres de l’équipe et le rôle principal de chacun dans le projet.
 
 ## Échéancier
 
