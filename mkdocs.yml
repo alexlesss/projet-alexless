@@ -48,6 +48,8 @@ repo_url: https://github.com/ift3150-template/ift3150-template.github.io
 
 markdown_extensions:
   - admonition
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed
@@ -74,3 +76,7 @@ nav:
   - Études préliminaires: analyse.md
   - Réalisation: realisation.md
   - Évaluation: evaluation.md
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
