@@ -56,6 +56,6 @@ Comme validation finale, il sera pertinent de présenter le projet à un autre e
 
 | Activités                      | Début   |   Fin   | Livrable                            | Statut      |
 |--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
+| Ouverture de projet            | 24 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
 | Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
 | Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
