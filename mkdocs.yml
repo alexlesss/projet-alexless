@@ -19,14 +19,14 @@ theme:
     - content.code.annotate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -76,8 +76,7 @@ plugins:
 nav:
   - Vue d'ensemble: index.md
   - Suivi: suivi.md
-  - Études préliminaires: analyse.md
-  - Réalisation: realisation.md
+  - Études préliminaires et réalisation: realisation.md
   - Évaluation: evaluation.md
 
 extra_javascript:

@@ -10,55 +10,10 @@ title: Travail réalisé
     }
 </style>
 
-# Réalisation
+# Études préliminaires et développement
 
-> :bulb: Cette page sert à présenter les travaux réalisés incluant la conception.  
-> Elle ne remplace pas le rapport final, mais permet de documenter progressivement les travaux réalisés, les décisions prises et les principaux résultats obtenus.
+Le travail a été entièrement concilié dans un fichier Overleaf, par souci de simplicité. Il suit une structure simple: la première partie correspond à la revue de littérature détaillant nos études préliminaires, tandis que la seconde relate le développement et la modélisation d'un solveur de programmation en nombres entiers codé en Python pouvant attaquer des instances de problèmes LWE. Ces deux sections respectent adéquatement le gabarit proposé par le template du site Web. Bien que parfois légèrement éparpillées et moins bien séquentiellement évoquées, toutes les sections y sont couvertes.
 
+Afin de ne pas directement dupliquer le travail et de réécrire ici ce qu'il a déjà été entrepris, nous nous contentons de citer le lien de ce fichier Overleaf. Il sera mis à jour au fur et à mesure qu'avancera le projet et est disponible à l'adresse [suivante](https://fr.overleaf.com/read/cqztsnmbpgsx#16f137).
 
-## Structure suggérée
-
-> La structure suivante est donnée à titre indicatif.  
-> Vous pouvez l’adapter selon la nature de votre projet.
-
-### Architecture ou structure générale
-
-> Présentez l’organisation générale du projet :
->
-> - architecture logicielle ;
-> - composants principaux ;
-> - structure des données ;
-> - technologies utilisées ;
-> - environnement de développement ;
-> - outils ou services externes.
-
-### Fonctionnalités ou composantes réalisées
-
-> Présentez les principales fonctionnalités, modules ou composantes développés.
->
-> Vous pouvez inclure :
->
-> - captures d’écran ;
-> - diagrammes ;
-> - démonstrations ;
-> - extraits de code ;
-> - prototypes.
-
-### Difficultés rencontrées
-
-> Décrivez les principaux défis rencontrés durant le projet :
->
-> - techniques ;
-> - méthodologiques ;
-> - organisationnels ;
-> - liés aux outils ou technologies.
-
-### Décisions et ajustements
-
-> Présentez les changements importants effectués durant le trimestre :
->
-> - changement d’approche ;
-> - ajustement des objectifs ;
-> - nouvelles contraintes ;
-> - simplifications ;
-> - améliorations apportées.
+Bien qu'aussi disponible dans le rapport, nous fournissons aussi [ici](https://github.com/alexlesss/solveur_lwe) le répertoire GitHub du projet. Le code est expliqué directement dans le fichier Overleaf.

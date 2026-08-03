@@ -25,13 +25,13 @@ Ce projet vise à étudier le rôle de la programmation en nombres entiers dans 
 
 ### Contexte
 <p style="text-align: justify;">
-En 1994, Peter Shor publie un article révolutionnaire. Par ce dernier, il argumente via un algorithme portant désormais son nom qu'il est possible de rapidement factoriser un nombre entier naturel en travaillant avec un ordinateur quantique. Advenant le cas de la conception d'un ordinateur de ce type, le système cryptographique RSA, soit l'un des plus utilisé à travers internet, ne serait plus fiable. En effet, RSA dépend de la factorisation d'un tel nombre entier, comme les ordinateurs classiques ne peuvent travailler sur ce problème efficacement. Il est donc impératif de proposer des systèmes de cryptographie alternatifs, que l'on croit résistants aux potentielles technologies quantiques: c'est là qu'est née la cryptographie post-quantique, soit une collection de techniques classiques qui se doivent de sécuriser l'information dans un monde où l'ordinateur quantique existe. Parmis celles-ci, certaines sont décryptables par des programmations en nombres entiers.
+En 1994, Peter Shor publie un article révolutionnaire. Par ce dernier, il argumente via un algorithme portant désormais son nom qu'il est possible de rapidement factoriser un nombre entier naturel en travaillant avec un ordinateur quantique. Advenant le cas de la conception d'un ordinateur de ce type, le système cryptographique RSA, soit l'un des plus utilisé à travers internet, ne serait plus fiable. En effet, RSA dépend de la factorisation d'un tel nombre entier, comme les ordinateurs classiques ne peuvent travailler sur ce problème efficacement. Il est donc impératif de proposer des systèmes de cryptographie alternatifs, que l'on croit résistants aux potentielles technologies quantiques: c'est là qu'est née la cryptographie post-quantique, soit une collection de techniques classiques qui se doivent de sécuriser l'information dans un monde où l'ordinateur quantique existe. Cependant, comme ces techniques sont purement classiques, il est d'actualité d'évaluer leur sécurité face aux ordinateurs actuels. 
 </p>
 
 
 ### Problématique
 <p style="text-align: justify;">
-Il est toujours pertinent de remettre en question des solutions établies, et cela est particulièrement mis de l'avant en cryptographie. Il est nécessaire de réévaluer les méthodes de protection proposées car les failles se situent souvent dans les endroits où l'on cherche le moins. Le monde post-quantique et ses schémas d'encryption basés sur les réseaux n'en font forcément pas exception, justifiant notre travail.
+Il est toujours pertinent de remettre en question des solutions établies, et cela est particulièrement mis de l'avant en cryptographie. Il est nécessaire de réévaluer les méthodes de protection proposées car les failles se situent souvent dans les endroits où l'on cherche le moins. Le monde post-quantique et ses schémas d'encryption basés sur les réseaux n'en font forcément pas exception, justifiant notre travail. 
 </p>
 
 ### Proposition et objectifs
@@ -46,16 +46,18 @@ Il est normal qu'une grande part du projet soit consacrée à de la lecture comm
 
 ### Validation et Évaluation
 <p style="text-align: justify;">
-Comme validation finale, il sera pertinent de présenter le projet à un autre expert autant en informatique quantique et théorique qu'en recherche opérationnelle oeuvrant à l'université de Montréal. Ces derniers pourront porter un oeil critique sur le travail qui a été entrepris, autant dans son fond que dans sa forme. Plus tard, le projet sera forcément présenté à la foire aux projets IFT3150 se tenant peu avant le début de la session d'automne. Des retours d'autres étudiants sont donc attendus. 
+Comme validation finale, il sera pertinent de présenter le projet à un autre expert autant en informatique quantique et théorique qu'en recherche opérationnelle oeuvrant à l'université de Montréal. Ces derniers pourront porter un oeil critique sur le travail qui a été entrepris, autant dans son fond que dans sa forme. Plus tard, le projet sera forcément présenté à la foire aux projets IFT3150 se tenant peu avant le début de la session d'automne. Des retours d'autres étudiants sont donc attendus. Nous comptons aussi faire lire la revue de littérature initiale à des étudiants n'étant pas dans un domaine mathématique: il sera intéressant d'entendre leurs retours et comprendre quels sont les sujets les plus faciles à apprivoiser, et au contraire, lesquels sont un peu plus ardus pour un débutant.
 </p>
 
-## Échéancier
+## Échéancier sommaire
 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
 | Activités                      | Début   |   Fin   | Livrable                            | Statut      |
 |--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 24 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
+| Exploration initiale           | 25 mai   | 8 juin  | Proposition de projet             | ✅ Terminé  |
+| Lecture approfondie et rédaction           | 8 juin   | 29 juin  | Revue de littérature                  | ✅ Terminé  |
+| Modélisation mathématique et implémentation numérique.           | 29 juin   | 13 juillet  | Solveur Gurobi de base, tests numériques initiaux.                  | ✅ Terminé  |
+| Exploration d'optimisation possibles          | 13 juillet   | 27 juillet  | Modèle de solveur amélioré.                 | ✅ Terminé  |
+| Ajustements et retouches, rédaction finale          | 27 juillet  | 10 aout | Présentation, rapport et modèle final du solveur. Revue de littérature corrigée. Tests numériques finaux.              | ⏳ À venir  |
