@@ -67,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -123,7 +123,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -133,7 +133,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -268,32 +268,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="analyse/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Études préliminaires
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
       <a href="realisation/" class="md-tabs__link">
         
   
   
     
   
-  Réalisation
+  Études préliminaires et réalisation
 
       </a>
     </li>
@@ -503,10 +484,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#echeancier" class="md-nav__link">
+  <a href="#echeancier-sommaire" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Échéancier
+        Échéancier sommaire
       
     </span>
   </a>
@@ -555,33 +536,6 @@
   
   
     <li class="md-nav__item">
-      <a href="analyse/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Études préliminaires
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="realisation/" class="md-nav__link">
         
   
@@ -589,7 +543,7 @@
   <span class="md-ellipsis">
     
   
-    Réalisation
+    Études préliminaires et réalisation
   
 
     
@@ -728,10 +682,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#echeancier" class="md-nav__link">
+  <a href="#echeancier-sommaire" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Échéancier
+        Échéancier sommaire
       
     </span>
   </a>
@@ -781,12 +735,12 @@ Ce projet vise à étudier le rôle de la programmation en nombres entiers dans 
 
 <h3 id="contexte">Contexte<a class="headerlink" href="#contexte" title="Permanent link">&para;</a></h3>
 <p style="text-align: justify;">
-En 1994, Peter Shor publie un article révolutionnaire. Par ce dernier, il argumente via un algorithme portant désormais son nom qu'il est possible de rapidement factoriser un nombre entier naturel en travaillant avec un ordinateur quantique. Advenant le cas de la conception d'un ordinateur de ce type, le système cryptographique RSA, soit l'un des plus utilisé à travers internet, ne serait plus fiable. En effet, RSA dépend de la factorisation d'un tel nombre entier, comme les ordinateurs classiques ne peuvent travailler sur ce problème efficacement. Il est donc impératif de proposer des systèmes de cryptographie alternatifs, que l'on croit résistants aux potentielles technologies quantiques: c'est là qu'est née la cryptographie post-quantique, soit une collection de techniques classiques qui se doivent de sécuriser l'information dans un monde où l'ordinateur quantique existe. Parmis celles-ci, certaines sont décryptables par des programmations en nombres entiers.
+En 1994, Peter Shor publie un article révolutionnaire. Par ce dernier, il argumente via un algorithme portant désormais son nom qu'il est possible de rapidement factoriser un nombre entier naturel en travaillant avec un ordinateur quantique. Advenant le cas de la conception d'un ordinateur de ce type, le système cryptographique RSA, soit l'un des plus utilisé à travers internet, ne serait plus fiable. En effet, RSA dépend de la factorisation d'un tel nombre entier, comme les ordinateurs classiques ne peuvent travailler sur ce problème efficacement. Il est donc impératif de proposer des systèmes de cryptographie alternatifs, que l'on croit résistants aux potentielles technologies quantiques: c'est là qu'est née la cryptographie post-quantique, soit une collection de techniques classiques qui se doivent de sécuriser l'information dans un monde où l'ordinateur quantique existe. Cependant, comme ces techniques sont purement classiques, il est d'actualité d'évaluer leur sécurité face aux ordinateurs actuels. 
 </p>
 
 <h3 id="problematique">Problématique<a class="headerlink" href="#problematique" title="Permanent link">&para;</a></h3>
 <p style="text-align: justify;">
-Il est toujours pertinent de remettre en question des solutions établies, et cela est particulièrement mis de l'avant en cryptographie. Il est nécessaire de réévaluer les méthodes de protection proposées car les failles se situent souvent dans les endroits où l'on cherche le moins. Le monde post-quantique et ses schémas d'encryption basés sur les réseaux n'en font forcément pas exception, justifiant notre travail.
+Il est toujours pertinent de remettre en question des solutions établies, et cela est particulièrement mis de l'avant en cryptographie. Il est nécessaire de réévaluer les méthodes de protection proposées car les failles se situent souvent dans les endroits où l'on cherche le moins. Le monde post-quantique et ses schémas d'encryption basés sur les réseaux n'en font forcément pas exception, justifiant notre travail. 
 </p>
 
 <h3 id="proposition-et-objectifs">Proposition et objectifs<a class="headerlink" href="#proposition-et-objectifs" title="Permanent link">&para;</a></h3>
@@ -801,10 +755,10 @@ Il est normal qu'une grande part du projet soit consacrée à de la lecture comm
 
 <h3 id="validation-et-evaluation">Validation et Évaluation<a class="headerlink" href="#validation-et-evaluation" title="Permanent link">&para;</a></h3>
 <p style="text-align: justify;">
-Comme validation finale, il sera pertinent de présenter le projet à un autre expert autant en informatique quantique et théorique qu'en recherche opérationnelle oeuvrant à l'université de Montréal. Ces derniers pourront porter un oeil critique sur le travail qui a été entrepris, autant dans son fond que dans sa forme. Plus tard, le projet sera forcément présenté à la foire aux projets IFT3150 se tenant peu avant le début de la session d'automne. Des retours d'autres étudiants sont donc attendus. 
+Comme validation finale, il sera pertinent de présenter le projet à un autre expert autant en informatique quantique et théorique qu'en recherche opérationnelle oeuvrant à l'université de Montréal. Ces derniers pourront porter un oeil critique sur le travail qui a été entrepris, autant dans son fond que dans sa forme. Plus tard, le projet sera forcément présenté à la foire aux projets IFT3150 se tenant peu avant le début de la session d'automne. Des retours d'autres étudiants sont donc attendus. Nous comptons aussi faire lire la revue de littérature initiale à des étudiants n'étant pas dans un domaine mathématique: il sera intéressant d'entendre leurs retours et comprendre quels sont les sujets les plus faciles à apprivoiser, et au contraire, lesquels sont un peu plus ardus pour un débutant.
 </p>
 
-<h2 id="echeancier">Échéancier<a class="headerlink" href="#echeancier" title="Permanent link">&para;</a></h2>
+<h2 id="echeancier-sommaire">Échéancier sommaire<a class="headerlink" href="#echeancier-sommaire" title="Permanent link">&para;</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Le suivi complet est disponible dans la page <a href="suivi/">Suivi de projet</a>.</p>
@@ -821,24 +775,38 @@ Comme validation finale, il sera pertinent de présenter le projet à un autre e
 </thead>
 <tbody>
 <tr>
-<td>Ouverture de projet</td>
-<td>4 mai</td>
-<td>15 mai</td>
+<td>Exploration initiale</td>
+<td>25 mai</td>
+<td>8 juin</td>
 <td>Proposition de projet</td>
 <td>✅ Terminé</td>
 </tr>
 <tr>
-<td>Études préliminaires</td>
-<td>4 mai</td>
-<td>22 mai</td>
-<td>Document d'analyse</td>
-<td>🔄 En cours</td>
+<td>Lecture approfondie et rédaction</td>
+<td>8 juin</td>
+<td>29 juin</td>
+<td>Revue de littérature</td>
+<td>✅ Terminé</td>
 </tr>
 <tr>
-<td>Présentation + Rapport</td>
-<td>7 aout</td>
-<td>14 aout</td>
-<td>Présentation + Rapport</td>
+<td>Modélisation mathématique et implémentation numérique.</td>
+<td>29 juin</td>
+<td>13 juillet</td>
+<td>Solveur Gurobi de base, tests numériques initiaux.</td>
+<td>✅ Terminé</td>
+</tr>
+<tr>
+<td>Exploration d'optimisation possibles</td>
+<td>13 juillet</td>
+<td>27 juillet</td>
+<td>Modèle de solveur amélioré.</td>
+<td>✅ Terminé</td>
+</tr>
+<tr>
+<td>Ajustements et retouches, rédaction finale</td>
+<td>27 juillet</td>
+<td>10 aout</td>
+<td>Présentation, rapport et modèle final du solveur. Revue de littérature corrigée. Tests numériques finaux.</td>
 <td>⏳ À venir</td>
 </tr>
 </tbody>
@@ -883,13 +851,34 @@ Comme validation finale, il sera pertinent de présenter le projet à un autre e
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2026 <b>DIRO</b> &ndash; Template de site pour le cours IFT3150 <br>Département d'informatique et de recherche opérationnelle <br>Université de Montréal
+      &copy; 2026 <b>Alexis Lessnick, DIRO</b> &ndash; Site créé via le template pour le cours IFT3150 <br>Département d'informatique et de recherche opérationnelle <br>Université de Montréal
     </div>
   
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
       Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/alexlesss" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:alexis.lessnick@umontreal.ca" target="_blank" rel="noopener" title="Contact courriel" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
     </a>
   
 </div>
